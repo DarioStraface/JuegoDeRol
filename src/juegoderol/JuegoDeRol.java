@@ -36,7 +36,7 @@ public class JuegoDeRol {
             nombreSanador = j1.nombre;
             //El jugador 1 sana al 2. El metodo se aplica al jugador 2. El argumento "2" es para definir el mensaje en pantalla en el metodo de la clase jugador.
             j2.sanar(2);
-            System.out.println(nombreSanador);
+            
             if(j2.vida<100 && j1.vida<100){
                 JOptionPane.showMessageDialog(null, "Vida "+j1.nombre+": "+j1.vida+"\nVida "+j2.nombre+": "+j2.vida);
             }
